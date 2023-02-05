@@ -10,8 +10,9 @@ const Sidebar = () => {
   return (
     <>
     <div className="sidebar-container">
-      <SidebarButtons title = 'Player' to = '/player' icon = {<FaPlay/>}/>
       <SidebarButtons title = 'Library' to = '/' icon = {<IoLibrary/>}/>
+      <SidebarButtons title = 'Player' to = '/player' icon = {<FaPlay/>}/>
+      
     </div>
     </>
   )
