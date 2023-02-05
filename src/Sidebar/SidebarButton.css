@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+}
+
+.sidebar-btn{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: rgb(211, 141, 80);
+    align-items: center;
+    justify-content: space-around;  
+}
+
+
+.sidebar-btn-active{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    color: rgb(211, 141, 80);
+    font-weight: bold;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sidebar-btn-title{
+    margin-left: 5px;
+}

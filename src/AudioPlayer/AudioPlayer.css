@@ -1,0 +1,49 @@
+
+.player-body{
+    width: 35rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.song-title{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: rgb(177, 115, 43);
+}
+
+.song-artist{
+    color: black;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.player-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.song-duration{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.start-time{
+    margin-right: 2rem;
+    font-weight: 400;
+    color: black;
+    font-size: 1.3rem;
+
+}
+.end-time{
+    margin-left: 2rem;
+    font-weight: 400;
+    color:black;
+    font-size: 1.3rem;
+}

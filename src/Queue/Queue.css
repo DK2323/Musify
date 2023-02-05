@@ -1,0 +1,43 @@
+ .queue-body{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s ease;
+}
+.queue-body:hover{
+    transform: scale(1.03);
+    background-color: rgba(82, 82, 192, 0.064);
+}
+.nextSong{
+    width: 90%;
+    align-self: center;
+    padding: 1%;
+    color: black;
+    font-weight: 500;
+}
+
+.songList{
+    align-self: center;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 4%;
+    overflow-y: auto;
+}
+.songList::-webkit-scrollbar{
+    display: none;
+}
+.trackItem{
+    align-self: center;
+}
+.trackName{
+    padding: 1.2%;
+    color: rgb(156, 97, 9);
+    font-weight: 600;
+}
+.trackName:hover{
+    font-weight: 800;
+    cursor: pointer;
+} 

@@ -1,0 +1,9 @@
+.songCard-body{
+    width: 250px;
+    height: 370px;
+    margin: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}

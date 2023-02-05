@@ -1,0 +1,7 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(189, 107, 40, 0.413);
+}
